@@ -1,0 +1,38 @@
+{
+    "apps": [
+
+     // {
+     //   "name": "PhamaIPD8185",
+     //   "script": "./PhamaIPD8185.js",
+     //   //"exec_mode": "cluster",
+     //   //"instances": 2,
+     //   "node_args": "--max_old_space_size=128"
+     // },
+     // {
+     //   "name": "ExitCare",
+     //   "script": "./ExitCare8184.js",
+     //   //"exec_mode": "cluster",
+     //   //"instances": 2,
+     //   "node_args": "--max_old_space_size=128"
+     // },
+      {
+        "name": "HOSxPPhama8182",
+        "script": "./HOSxPPhama8182.js",
+        //"exec_mode": "cluster",
+        //"instances": 2,
+        "node_args": "--max_old_space_size=256"
+      },
+      {
+        "name": "HOSxPScreen8181",
+        "script": "./HOSxPScreen8181.js",
+        //"exec_mode": "cluster",
+        //"instances": 2,
+        "node_args": "--max_old_space_size=128"
+      },
+      {
+        "name": "jssocket",
+        "script": "./jssocket.js",
+        "node_args": "--max_old_space_size=8192"
+      }
+    ]
+  }

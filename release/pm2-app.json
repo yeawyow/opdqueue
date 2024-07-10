@@ -1,0 +1,16 @@
+{
+    "apps": [
+      {
+        "name": "HOSxPScreen8181",
+        "script": "./HOSxPScreen8181.js",
+        "exec_mode": "cluster",
+        "instances": 2,
+        "node_args": "--max_old_space_size=8192"
+      },
+      {
+        "name": "jssocket",
+        "script": "./jssocket.js",
+        "node_args": "--max_old_space_size=8192"
+      }
+    ]
+  }
